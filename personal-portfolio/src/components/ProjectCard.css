@@ -1,0 +1,11 @@
+/* Add this to your CSS */
+.project-card {
+    display: flex;
+    flex-direction: column;
+    height: 100%; /* Ensure the card takes full height */
+  }
+  
+  .project-card .card-body {
+    flex-grow: 1; /* Make sure the card body stretches to fill the space */
+  }
+  
