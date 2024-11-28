@@ -10,7 +10,7 @@ app.use(express.json());
 // CORS Configuration
 const allowedOrigins = [
   "http://localhost:3000", // Add your frontend's URL here
-  "https://your-frontend-domain.com",
+  "https://tejaspawarportfoli0.netlify.app",
 ];
 
 app.use(cors({
